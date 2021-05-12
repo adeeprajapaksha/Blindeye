@@ -1,0 +1,52 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.tensorflow.lite.examples.detection">
+
+    <uses-sdk />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="BLIND EYE"
+        android:roundIcon="@drawable/ic_iconfinder___eye_show_view_watch_see_disable_inactive_unavailable_off_3844412"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.ObjectDetection">
+
+        <activity android:name="UsersDetailsActivity"></activity>
+        <activity android:name="WorkersDetailsActivity" />
+        <activity android:name="StartUpActivity" />
+        <activity android:name="WorkersLogin" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="UsersMap"
+            android:label="@string/title_activity_users_map" />
+        <activity
+            android:name="WorkersMap"
+            android:label="@string/title_activity_workers_map" />
+        <activity
+            android:name="MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DetectorActivity"
+            android:label="Blind"
+            android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+</manifest>

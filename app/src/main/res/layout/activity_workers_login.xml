@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dff9fb"
+    tools:context=".WorkersLogin">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Enter the PIN"
+        android:textColor="#000000"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="54dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="55dp"
+        android:hint="PIN"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:drawableLeft="@drawable/key2"
+        android:gravity="center"
+        android:id="@+id/editText"
+        android:inputType="numberPassword"
+        />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/new_button"
+        android:fontFamily="sans-serif-black"
+        android:text="Login"
+        android:textColor="#000000"
+        />
+
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:src="@drawable/worker123"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="120dp"
+        />
+
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="280dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:text="Enter the PIN code that provided "
+        android:textColor="#353232"
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="330dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:text="earlier to access"
+        android:textColor="#353232"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>

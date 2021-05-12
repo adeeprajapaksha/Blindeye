@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "456891261254",
+    "firebase_url": "https://blindeye-80c56-default-rtdb.firebaseio.com",
+    "project_id": "blindeye-80c56",
+    "storage_bucket": "blindeye-80c56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456891261254:android:2777317c066f0c7e774547",
+        "android_client_info": {
+          "package_name": "com.example.smartbin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456891261254-jcfe0jba30bmu8vmgcs0fehmk3ksseg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo2XefWdfbhSpt-dGETDy6ngN0tNHlLw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456891261254-jcfe0jba30bmu8vmgcs0fehmk3ksseg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456891261254:android:7aa6630b2e8f8ca9774547",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.examples.detection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456891261254-jcfe0jba30bmu8vmgcs0fehmk3ksseg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo2XefWdfbhSpt-dGETDy6ngN0tNHlLw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456891261254-jcfe0jba30bmu8vmgcs0fehmk3ksseg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456891261254:android:14a55ea85d377397774547",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.examples.detection.tflite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456891261254-jcfe0jba30bmu8vmgcs0fehmk3ksseg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo2XefWdfbhSpt-dGETDy6ngN0tNHlLw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456891261254-jcfe0jba30bmu8vmgcs0fehmk3ksseg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
